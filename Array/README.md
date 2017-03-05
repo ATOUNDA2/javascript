@@ -1,18 +1,18 @@
 # Arrays
 
-## [Array.prototype.push()](#push)
+## [.push()](#push)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-## [Array.prototype.pop()](#pop)
+## [.pop()](#pop)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-## [Array.prototype.unshift()](#push)
+## [.unshift()](#unshift)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-## [Array.prototype.shift()](#pop)
+## [.shift()](#shift)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
