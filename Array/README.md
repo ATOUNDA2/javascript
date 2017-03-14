@@ -16,4 +16,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+## [.join()](#join)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
 
