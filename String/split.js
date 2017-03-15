@@ -5,7 +5,7 @@ var testString = 'I want to be an array';
 console.info('if we pass no arguments, then every letter becomes an array element');
 console.dir(testString.split(''));
 
-console.info('if we pass argument, then that determines where the string is split');
+console.info('if we pass an argument, then that determines where the string is split');
 console.dir(testString.split(' '));
 
 console.info('if we split on " be ", then whatever is on either side of it becomes an array element');
