@@ -24,4 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+## [.concat()](#concat)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
