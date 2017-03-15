@@ -9,7 +9,7 @@ foo.join(); // 'a,b,c,d,e,f'
 console.warn('join using the default separator');
 console.log(foo.join()); // 'a b c d e f'
 
-//of you can provide a specific separator:
+//or you can provide a specific separator:
 
 console.warn('join using a space');
 console.log(foo.join(' ')); // 'a b c d e f'
