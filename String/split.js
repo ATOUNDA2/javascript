@@ -2,7 +2,7 @@ var testString = 'I want to be an array';
 
 //the split method turns a string into an array.
 
-console.info('if we pass no arguments, then every letter becomes an array element');
+console.info('if we pass an empty string as an argument, then every letter becomes an array element');
 console.dir(testString.split(''));
 
 console.info('if we pass an argument, then that determines where the string is split');
