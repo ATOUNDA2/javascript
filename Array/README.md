@@ -20,5 +20,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+## [.splice()](#splice)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
