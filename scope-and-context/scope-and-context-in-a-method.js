@@ -15,26 +15,33 @@ window.foo = (function () {
     };
 })();
 
-//calling foo.getCount() without any arguments
-//should increment the scope PROPERTY (this is "context")
-foo.getCount(); // 101
-foo.getCount(); // 102
-foo.getCount(); // 103
+console.warn('calling foo.getCount() without any arguments should increment the count PROPERTY (this is "context")');
+console.log(foo.getCount()); // 101
+console.log(foo.getCount()); // 102
+console.log(foo.getCount()); // 103
 
-//calling foo.getCount() passing in 'scope' as an argument
-//should increment the scope VARIABLE (this is "scope")
-foo.getCount('scope'); // 1
-foo.getCount('scope'); // 2
-foo.getCount('scope'); // 3
+console.warn('but the count PROPERTY is exposed, so we can change it:');
 
-//etc...
-foo.getCount(); // 104
-foo.getCount(); // 105
-foo.getCount(); // 106
+foo.count = 75;
 
-//etc...
-foo.getCount('scope'); // 4
-foo.getCount('scope'); // 5
-foo.getCount('scope'); // 6
+console.log(foo.getCount()); // 76
+console.log(foo.getCount()); // 77
+console.log(foo.getCount()); // 78
+
+console.warn('calling foo.getCount() passing in "scope"" as an argument should increment the scope VARIABLE (this is "scope")');
+console.log(foo.getCount('scope')); // 1
+console.log(foo.getCount('scope')); // 2
+console.log(foo.getCount('scope')); // 3
+
+console.warn('switching back to context:');
+console.log(foo.getCount()); // 76
+console.log(foo.getCount()); // 77
+console.log(foo.getCount()); // 78
+
+
+console.warn('switching back to scope:');
+console.log(foo.getCount('scope')); // 4
+console.log(foo.getCount('scope')); // 5
+console.log(foo.getCount('scope')); // 6
 
 
