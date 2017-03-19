@@ -44,7 +44,7 @@ var foo = ['a', 'b', 'c', 'd', 'e', 'f'];
 //it represents a "from the end" position
 console.dir(foo.splice(-4, 3)); // ['c', 'd', 'e']
 console.info(foo.length); // 3
-console.dir(foo0 // ["a", "b", "f"]
+console.dir(foo) // ["a", "b", "f"]
 //--------------
 
 
