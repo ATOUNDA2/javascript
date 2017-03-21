@@ -1,3 +1,7 @@
+[![JavaScript Logo](https://www.frontendvideo.org/wp-content/uploads/javascript-logo-200-200x160.jpg)](https://www.frontendvideo.org/category/javascript/)
+
+### Scope and Context in a Method
+
 ## [Scope and Context in a Method](#scope-and-context-in-a-method)
 
 ### Sometimes the concepts of scope and context are misunderstood in JavaScript. It is important to understand that they are not the same thing.
