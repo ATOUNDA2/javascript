@@ -79,9 +79,8 @@ Copy the contents of the file: ***splice.js*** and paste it into your JavaScript
 
 ## [.concat()](#concat)
 
+### The concat method can be used to combine to arrays. This method returns a new array and the original arrays are not changed in any way.
+
 ### How to run the example code:
 
 Copy the contents of the file: ***concat.js*** and paste it into your JavaScript console.
-
-### The concat method can be used to combine to arrays. This method returns a new array and the original arrays are not changed in any way.
-
